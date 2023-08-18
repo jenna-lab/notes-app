@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
     <header>
-        <h1>Note App</h1>
+        <h1>NOTE APP</h1>
         <div class="search-bar">
             <input type="text" placeholder="Search notes">
             <button>Search</button>
@@ -20,37 +27,54 @@
             <div class="note-card">
                 <h3>Note Title 1</h3>
                 <div class="note-actions">
-                    <button class="edit-button">Edit</button>
-                    <button class="delete-button">Delete</button>
+                    <button class="edit-button"><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: green;"></i></button>
+                    <button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"  style="color: red;"></i></button>
                 </div>
             </div>
             <div class="note-card">
                 <h3>Note Title 1</h3>
                 <div class="note-actions">
-                    <button class="edit-button">Edit</button>
-                    <button class="delete-button">Delete</button>
+                    <button class="edit-button"><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: green;"></i></button>
+                    <button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"  style="color: red;"></i></button>
                 </div>
             </div>
             <div class="note-card">
                 <h3>Note Title 1</h3>
                 <div class="note-actions">
-                    <button class="edit-button">Edit</button>
-                    <button class="delete-button">Delete</button>
+                    <button class="edit-button"><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: green;"></i></button>
+                    <button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"  style="color: red;"></i></button>
                 </div>
             </div>
             <div class="note-card">
                 <h3>Note Title 1</h3>
                 <div class="note-actions">
-                    <button class="edit-button">Edit</button>
-                    <button class="delete-button">Delete</button>
+                    <button class="edit-button"><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: green;"></i></button>
+                    <button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"  style="color: red;"></i></button>
                 </div>
+            </div>
+            <div class="note-card">
+                <h3>Note Title 1</h3>
+                <div class="note-actions">
+                    <button class="edit-button"><i class="fa fa-pencil-square-o" aria-hidden="true" style="color: green;"></i></button>
+                    <button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"  style="color: red;"></i></button>
+                </div>
+            </div>
+
+           
             </div>
         </section>
-        <section class="add-note-bar">
+        <!-- <section class="add-note-bar">
             <div class="add-note-button">
                 <button>Add Note</button>
             </div>
+        </section> -->
+        <section class="add-note-bar">
+            <div class="input-bar">
+                <input type="text" placeholder="Note">
+                <button class="add-note-button">Add Note</button>
+            </div>
         </section>
+        
     </main>
     <script src="script.js"></script>   
 </body>

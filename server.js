@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const port = 3000; // You can change this port if needed
+const port = 8000; // You can change this port if needed
 
 // Connect to MongoDB using Mongoose
 mongoose.connect('mongodb+srv://jensam209:OiSygtjSNbhzva37@cluster0.vxuaifq.mongodb.net/', {
