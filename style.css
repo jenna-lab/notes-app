@@ -77,11 +77,23 @@ body, h1, h2, h3, p {
   
   .add-note-bar {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
-    max-width: 800px;
+    max-width: 200px; 
+    margin-right: 2rem;
+  }
+  
+  .add-note-bar input[type="text"] {
+    padding: 0.5rem;
   }
   
   .add-note-button button {
-    background-color: #333
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
   }
+
